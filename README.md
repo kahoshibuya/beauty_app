@@ -20,7 +20,7 @@
 |column|type|option|
 |------|----|------|
 |menu|string|null: false|
-|price|string|null: false|
+|price|integer|null: false|
 |info|text|
 
 
