@@ -3,8 +3,7 @@
 
 |column|type|option|
 |------|----|------|
-|name|string|null: false|
-|password|string|null: false|
+|email|string|null: false|
 |encypted_password|string|null: false|
 
 ## staffsテーブル
