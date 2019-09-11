@@ -1,4 +1,7 @@
 # README
+・メニュー
+・スタッフ紹介
+・写真フラッシュ３まい
 ## usersテーブル
 
 |column|type|option|
