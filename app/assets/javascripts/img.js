@@ -3,7 +3,7 @@ $(function() {
       prevArrow:'<i class="fa fa-angle-left arrow arrow-left"></i>',
       nextArrow:'<i class="fa fa-angle-right arrow arrow-right"></i>',
       autoplay: true,
-      autoplaySpeed: 2000,
+      autoplaySpeed: 1000,
       speed: 800
   });
 
