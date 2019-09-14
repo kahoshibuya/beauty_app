@@ -61,6 +61,7 @@
   }
   &__container {
     width: 80vw;
+    height: 600px;
     margin: 0 auto;
     .staff1 {
       float: right;
@@ -73,6 +74,27 @@
           line-height: 30px;
         }
       }
+    }
+  }
+}
+.access {
+  background-color: #f5f5f5;
+  margin-top: 20px;
+  padding-bottom: 60px;
+  &__container {
+    width: 80vw;
+    margin: 0 auto;
+    .access-top {
+      display: flex;
+      .line {
+        border: 1px solid #4f7594;
+          width: 30px;
+          height: 1px;
+          margin: 60px 22px 22px 0;
+      }
+    }
+    .access__info {
+      display: flex;
     }
   }
 }
