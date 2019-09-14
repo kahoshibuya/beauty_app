@@ -26,7 +26,52 @@
         margin-bottom: 35px;
       }
       &__last {
+        font-size: 0.8rem;
+        margin-top: 33px;
+      }
+    }
+    dl {
+      margin-top: 23px;
+      width: 90%;
+      min-width: 350px;
+      padding-bottom: 5px;
+      height: 30px;
+      border-bottom: 1px solid #ccc;
+
+      dt {
+        float: left;
         line-height: 1.4em;
+      }
+      dd {
+        float: right;
+        display: block;
+      }
+    }
+  }
+}
+.staff {
+  .staff-top {
+    display: flex;
+    .line {
+      border: 1px solid #4f7594;
+      width: 30px;
+      height: 1px;
+      margin: 60px 22px 22px 0;
+    }
+  }
+  &__container {
+    width: 80vw;
+    margin: 0 auto;
+    .staff1 {
+      float: right;
+      display: flex;
+      margin-top:20px;
+      &__box {
+        width: 500px;
+        .name-info{
+          font-size: 1.0rem;
+          line-height: 30px;
+        }
       }
     }
   }
