@@ -1,3 +1,6 @@
+.waves-effect {
+  @extend .pink, .lighten-4;
+}
 header {
   height: 500px;
   .slick-track {
