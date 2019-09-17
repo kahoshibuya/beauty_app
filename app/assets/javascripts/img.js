@@ -7,5 +7,4 @@ $(function() {
       pauseOnHover: true,
       speed: 800
   });
-
 });
