@@ -4,6 +4,7 @@ $(function() {
       nextArrow:'<i class="fa fa-angle-right arrow arrow-right"></i>',
       autoplay: true,
       autoplaySpeed: 1000,
+      pauseOnHover: true,
       speed: 800
   });
 
