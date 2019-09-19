@@ -1,6 +1,19 @@
-.waves-effect {
-  @extend .red, .accent-2;
-  margin-right: 20px;
+.top-nav {
+  background: rgba(255,255,255,.8);
+  // position: fixed;
+  width: 100%;
+  height: 63px;
+  .brand-logo {
+    color: #4f7594;
+    font-size: 40px;
+    margin-left: 20px;
+  }
+  .waves-effect {
+    margin-top: 10px;
+    margin-right: 20px;
+    width: 200px;
+    @extend .pink, .darken-2
+  }
 }
 header {
   height: 500px;
@@ -78,6 +91,7 @@ header {
       margin-top:20px;
       &__box {
         width: 500px;
+        margin-left: 20px;
         .name-info{
           font-size: 1.0rem;
           line-height: 30px;
