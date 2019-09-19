@@ -92,6 +92,9 @@ header {
       float: right;
       display: flex;
       margin-top:20px;
+      .staff-image img {
+        height: 200px;
+      }
       &__box {
         width: 500px;
         margin-left: 20px;
