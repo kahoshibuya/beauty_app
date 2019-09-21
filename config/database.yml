@@ -10,7 +10,7 @@ default: &default
   timeout: 5000
   username: root
   password: 
-  socket: /var/lib/mysql/mysql2.sock
+  socket: /tmp/mysql.sock
 
 development:
   <<: *default
