@@ -84,7 +84,6 @@ gem 'fog-aws'
 gem 'devise'
 gem 'jquery-rails'
 gem 'mysql2'
-
 gem 'pg', group: :production 
 
 
