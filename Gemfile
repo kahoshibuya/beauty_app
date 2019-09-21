@@ -83,7 +83,6 @@ gem 'carrierwave'
 gem 'fog-aws'
 gem 'devise'
 gem 'jquery-rails'
-
 gem 'mysql2'
 
 
