@@ -79,6 +79,5 @@ gem 'fog-aws'
 gem 'devise'
 gem 'jquery-rails'
 gem 'mysql2'
-gem 'materialize-sass'
-gem 'material_icons'
+
 
