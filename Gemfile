@@ -39,7 +39,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-  gem 'capistrano'
+  gem 'capistrano', '~> 3.0'
   gem 'capistrano-rbenv'
   gem 'capistrano-bundler'
   gem 'capistrano-rails'
@@ -68,6 +68,11 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :production do
   gem 'unicorn', '5.4.1'
+  gem 'capistrano', '~> 3.0'
+  gem 'capistrano-rbenv'
+  gem 'capistrano-bundler'
+  gem 'capistrano-rails'
+  gem 'capistrano3-unicorn'
 end
 
 gem 'pry-rails'
@@ -78,7 +83,9 @@ gem 'carrierwave'
 gem 'fog-aws'
 gem 'devise'
 gem 'jquery-rails'
-gem 'mysql2'
-gem 'materialize-sass'
-gem 'material_icons'
+gem 'mysql2', '0.5.2'
+# gem 'materialize-sass'
+# gem 'material_icons'
+gem 'bootstrap', '~> 4.3.1'
+
 
