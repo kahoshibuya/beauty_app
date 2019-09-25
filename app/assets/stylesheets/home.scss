@@ -11,6 +11,7 @@
     color: #4f7594;
     font-size: 40px;
     margin-left: 20px;
+    font-family: 'Bad Script', cursive;
   }
   .right-box {
     margin-top: 10px;
@@ -46,6 +47,8 @@ header {
     margin: 0 auto;
     .menu-top {
       display: flex;
+      font-size: 2rem;
+      font-family: 'Bad Script', cursive;
       .line {
         border: 1px solid #4f7594;
         width: 30px;
@@ -57,12 +60,13 @@ header {
       display: flex;
       &__name {
         font-weight: 700;
-        font-family: 'Abel', sans-serif;
         letter-spacing: 0.2em;
         font-size: 1.5rem;
         margin-bottom: 35px;
+        font-family: 'Chilanka', cursive;
       }
       &__last {
+        font-family: 'Chilanka', cursive;
         font-size: 0.8rem;
         margin-top: 33px;
       }
@@ -90,6 +94,8 @@ header {
   padding-bottom: 30px;
   .staff-top {
     display: flex;
+    font-family: 'Bad Script', cursive;
+    font-size: 2rem;
     .line {
       border: 1px solid #4f7594;
       width: 30px;
@@ -101,6 +107,7 @@ header {
     width: 80vw;
     height: 600px;
     margin: 0 auto;
+    
     .staff1 {
       float: right;
       display: flex;
@@ -128,6 +135,8 @@ header {
     margin: 0 auto;
     .access-top {
       display: flex;
+      font-family: 'Bad Script', cursive;
+      font-size: 2rem;
       .line {
         border: 1px solid #4f7594;
           width: 30px;
