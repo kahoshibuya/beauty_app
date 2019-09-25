@@ -6,20 +6,19 @@
   top:0;
   width:100%;
   z-index:24;
+  display: table;
   .brand-logo {
     color: #4f7594;
     font-size: 40px;
     margin-left: 20px;
-    display:  inline-block;
   }
   .right-box {
     margin-top: 10px;
     margin-right: 20px;
     width: 150px;
-    float: right;
-    display:  inline-block;
+    display: table-cell;
     .right-btn {
-      display: inline-block;
+      display: table-cell;
       padding: 7px 20px;
       border-radius: 25px;
       text-decoration: none;
