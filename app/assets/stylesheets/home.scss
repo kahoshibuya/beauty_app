@@ -97,6 +97,7 @@ padding: 0px;
           padding-bottom: 5px;
           height: 30px;
           border-bottom: 1px solid #ccc;
+          font-family: 'Noto Serif JP', serif;
           dt {
             float: left;
             line-height: 1.4em;
@@ -141,6 +142,7 @@ padding: 0px;
         &__box {
           width: 500px;
           margin-left: 20px;
+          font-family: 'Noto Serif JP', serif;
           .name {
             font-size: 1.4rem;
           }
@@ -180,6 +182,7 @@ padding: 0px;
         }
         &__box {
           font-size: 1.0rem;
+          font-family: 'Noto Serif JP', serif;
           .name {
             font-size: 1.4rem;
           }
@@ -198,6 +201,7 @@ padding: 0px;
     background-color: #f5f5f5;
     margin-top: 20px;
     padding-bottom: 60px;
+    
     &__container {
       width: 80vw;
       margin: 0 auto;
