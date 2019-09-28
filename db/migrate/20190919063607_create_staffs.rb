@@ -3,7 +3,6 @@ class CreateStaffs < ActiveRecord::Migration[5.2]
     create_table :staffs do |t|
       t.string :name, null: false
       t.text :text
-
       t.timestamps
     end
   end
