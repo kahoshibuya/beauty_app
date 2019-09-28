@@ -73,6 +73,7 @@ group :production do
   gem 'capistrano-bundler'
   gem 'capistrano-rails'
   gem 'capistrano3-unicorn'
+  gem 'pg'
 end
 
 gem 'pry-rails'
