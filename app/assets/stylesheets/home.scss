@@ -97,7 +97,7 @@ padding: 0px;
           padding-bottom: 5px;
           height: 30px;
           border-bottom: 1px solid #ccc;
-          font-family: 'Noto Serif JP', serif;
+          font-family: 'Chilanka', cursive;
           dt {
             float: left;
             line-height: 1.4em;
@@ -142,7 +142,7 @@ padding: 0px;
         &__box {
           width: 500px;
           margin-left: 20px;
-          font-family: 'Noto Serif JP', serif;
+          font-family: 'Chilanka', cursive;
           .name {
             font-size: 1.4rem;
           }
@@ -182,7 +182,7 @@ padding: 0px;
         }
         &__box {
           font-size: 1.0rem;
-          font-family: 'Noto Serif JP', serif;
+          font-family: 'Chilanka', cursive;
           .name {
             font-size: 1.4rem;
           }
@@ -219,6 +219,7 @@ padding: 0px;
       }
       .access__info {
         display: flex;
+        font-family: 'Chilanka', cursive;
         dl {
           margin-top: 10px;
         }
@@ -248,12 +249,13 @@ padding: 0px;
         .line {
           border: 1px solid #4f7594;
           background-color:#4f7594;
-            width: 30px;
-            height: 1px;
-            margin: 40px 22px 22px 0;
+          width: 30px;
+          height: 1px;
+          margin: 40px 22px 22px 0;
         }
       }
       .access__info {
+        font-family: 'Chilanka', cursive;
         dl {
           margin-top: 10px;
         }
