@@ -13,13 +13,11 @@ User.create!(
 
 Staff.create!(
   name: 'staff1',
-  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy4Y3dWIwPIGh8G7h87NcUkuJxyRgBQES57y6XRrlp3Ee9PZfFbQ',
   text: '自己紹介 こんにちは。一人一人のライフスタイルやイメージに合わせたヘアスタイルを提案します。 毎日のスタイルをサポートします。気軽にご相談下さい！！'
 )
 
 Staff.create!(
   name: 'staff2',
-  image: 'https://www.silhouette-illust.com/wp-content/uploads/2017/09/jinbutsu_female_40164-300x300.jpg',
   text: '自己紹介 こんにちは。一人一人のライフスタイルやイメージに合わせたヘアスタイルを提案します。 毎日のスタイルをサポートします。気軽にご相談下さい！！'
 )
 
