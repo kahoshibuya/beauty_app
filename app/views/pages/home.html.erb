@@ -122,20 +122,20 @@
         <h2>STAFF</h2>
       </div>
       <div class="staff1">
-        <div class="staff-image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy4Y3dWIwPIGh8G7h87NcUkuJxyRgBQES57y6XRrlp3Ee9PZfFbQ"></div>
+        <div class="staff-image"><%= image_tag @staff[0]['image'] %></div>
         <div class="staff1__box">
-          <h4 class="name">name<h4>
+          <h4 class="name"><%= @staff[0]['name'] %><h4>
           <div class="name-info">
-          自己紹介 こんにちは。一人一人のライフスタイルやイメージに合わせたヘアスタイルを提案します。 毎日のスタイルをサポートします。気軽にご相談下さい！！
+          <%= @staff[0]['text'] %>
           </div>
         </div>
       </div>
       <div class="staff1">
-        <div class="staff-image"><img src="https://www.silhouette-illust.com/wp-content/uploads/2017/09/jinbutsu_female_40164-300x300.jpg"></div>
+        <div class="staff-image"><%= image_tag @staff[1]['image'] %></div>
         <div class="staff1__box">
-          <h4 class="name">name</h4>
+          <h4 class="name"><%= @staff[1]['name'] %></h4>
           <div class="name-info">
-          自己紹介 こんにちは。一人一人のライフスタイルやイメージに合わせたヘアスタイルを提案します。 毎日のスタイルをサポートします。気軽にご相談下さい！！
+          <%= @staff[1]['text'] %>
           </div>
         </div>
       </div>
