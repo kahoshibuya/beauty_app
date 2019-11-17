@@ -1,6 +1,14 @@
 <h1>スタッフ紹介部分の編集</h1>
 
 <div class="staff1_edit">
+  <div class="staff-image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy4Y3dWIwPIGh8G7h87NcUkuJxyRgBQES57y6XRrlp3Ee9PZfFbQ"></div>
+    <div class="staff1__box">
+      <h4 class="name"><%= @staff[0]['name'] %><h4> 
+      <div class="name-info">
+      <%= @staff[0]['text'] %>
+      </div>
+    </div>
+  </div>
   <%# <%= form_for(@staff) do |f| %>
     <%# <%= f.label :スタッフ１ %> %>
     <%# <%= f.text_field :staff, class: 'form-control' %> %> %>
