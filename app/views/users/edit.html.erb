@@ -8,11 +8,8 @@
 
     <!--formの送信先を指定-->
 
-    <%= form_for (url: root_path) do |f| %>
+    <%= form_for(@staff) do |f| %>
 
-      <!--エラーメッセージ-->
-
-      <%= render 'shared/error_messages' %>
 
       <!--form作成-->
 
