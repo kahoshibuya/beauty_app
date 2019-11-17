@@ -9,15 +9,32 @@
 
     <%= form_for(users_form_edit_path) do |f| %>
 
-
       <!--form作成-->
+      <div class="staff1">
+        <div class="staff-image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy4Y3dWIwPIGh8G7h87NcUkuJxyRgBQES57y6XRrlp3Ee9PZfFbQ"></div>
+        <div class="staff1__box">
+          <%# <h4 class="name"><%= @staff[0]['name'] %><h4>  %>
+          <div class="name-info">
+          <%# <%= @staff[0]['text'] %> %>
+          </div>
+        </div>
+      </div>
+      <div class="staff1">
+        <div class="staff-image"><img src="https://www.silhouette-illust.com/wp-content/uploads/2017/09/jinbutsu_female_40164-300x300.jpg"></div>
+        <div class="staff1__box">
+          <%# <h4 class="name"><%= @staff[1]['name'] %></h4> %>
+          <div class="name-info">
+          <%# <%= @staff[1]['text'] %> %>
+          </div>
+        </div>
+      </div>
 
       <%= f.label :name %>
       <%= f.text_field :name, class: 'form-control' %>
 
       <%= f.label :text %>
       <%= f.text_field :text, class: 'form-control' %>
-      
+
       <%= f.submit "update staffs accounts", class: "btn btn-primary" %>
     <% end %>
 
