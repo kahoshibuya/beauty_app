@@ -1,14 +1,41 @@
 <h1>スタッフ紹介部分の編集</h1>
 
-<div class="staff1_edit">
-  <div class="staff-image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy4Y3dWIwPIGh8G7h87NcUkuJxyRgBQES57y6XRrlp3Ee9PZfFbQ"></div>
-    <div class="staff1__box">
-      <h4 class="name"><%= @staff[0]['name'] %><h4> 
-      <div class="name-info">
-      <%= @staff[0]['text'] %>
-      </div>
+<% provide(:title, "Ebit user") %>
+<h1>Update your profile</h1>
+
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+
+    <!--formの送信先を指定-->
+
+    <%= form_for(@staff) do |f| %>
+
+      <!--エラーメッセージ-->
+
+      <%= render 'shared/error_messages' %>
+
+      <!--form作成-->
+
+      <%= f.label :name %>
+      <%= f.text_field :name, class: 'form-control' %>
+
+      <%= f.label :email %>
+      <%= f.text_field :email, class: 'form-control' %>
+
+      <%= f.label :password %>
+      <%= f.password_field :password, class: 'form-control' %>
+
+      <%= f.label :password_contfirmation, "Confirmation" %>
+      <%= f.password_field :password_confirmation, class: "form-control" %>
+
+      <%= f.submit "Create my account", class: "btn btn-primary" %>
+    <% end %>
+
+    <!--編集完了ボタンと画像を表示-->
+
+    <div class="grabatar_edit">
+      <%= gravatar_for @user %>
+      <a fref="http://gravatar.com/emails" target="_blank">編集</a>
     </div>
   </div>
-  <%= form_for(@staff) do |f|
-  
 </div>
