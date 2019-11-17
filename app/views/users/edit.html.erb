@@ -1,14 +1,13 @@
-<h1>スタッフ紹介部分の編集</h1>
 
 <% provide(:title, "Ebit user") %>
-<h1>Update your profile</h1>
+<h1>Update staffs profile</h1>
 
 <div class="row">
   <div class="col-md-6 col-md-offset-3">
 
     <!--formの送信先を指定-->
 
-    <%= form_for(@staff) do |f| %>
+    <%= form_for(users_form_edit_path) do |f| %>
 
 
       <!--form作成-->
@@ -25,14 +24,8 @@
       <%= f.label :password_contfirmation, "Confirmation" %>
       <%= f.password_field :password_confirmation, class: "form-control" %>
 
-      <%= f.submit "Create my account", class: "btn btn-primary" %>
+      <%= f.submit "update staffs accounts", class: "btn btn-primary" %>
     <% end %>
 
-    <!--編集完了ボタンと画像を表示-->
-
-    <div class="grabatar_edit">
-      <%= gravatar_for @user %>
-      <a fref="http://gravatar.com/emails" target="_blank">編集</a>
-    </div>
   </div>
 </div>
