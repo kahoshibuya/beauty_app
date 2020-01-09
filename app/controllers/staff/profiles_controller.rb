@@ -1,4 +1,15 @@
 class Staff::ProfilesController < ApplicationController
+  def index
+  end
+
+  def new
+    @staff = Staff.new
+  end
+
+  def create
+    Staff.create(staff_params)
+  end
+
   def edit
     @staff=Staff.all 
   end
@@ -11,4 +22,8 @@ class Staff::ProfilesController < ApplicationController
     @staff.save
     redirect_to("/")
   end
+
+  def staff_params
+    params.require(:staff).permit(:name, :text)
+end
 end

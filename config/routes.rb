@@ -7,8 +7,11 @@ Rails.application.routes.draw do
   root to: 'pages#home'
   namespace :staff do
     # resources :profiles
-    get "profiles/edit" => "profiles#edit"
-    post "profiles/update" => "profiles#update"
+    get 'profiles', to: 'profiles#index'
+    get 'profiles/new', to: 'profiles#new'
+    post 'profiles', to: 'profiles#create'
+    get "profiles/edit", to: "profiles#edit"
+    post "profiles/update", to: "profiles#update"
   end
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
