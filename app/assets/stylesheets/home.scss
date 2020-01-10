@@ -4,6 +4,7 @@ margin: 0px;
 padding: 0px;
 }
 .top-nav {
+  padding-top: 10px;
   background: rgba(255,255,255,.8);
   width: 100%;
   height: 63px;
@@ -17,7 +18,7 @@ padding: 0px;
     font-size: 40px;
     font-weight: bold;
     margin-left: 20px;
-    font-family: 'Bad Script', cursive;
+    font-family: 'Fjalla One', sans-serif;
   }
   .right-box {
     width: 150px;
@@ -57,25 +58,52 @@ padding: 0px;
 @media (min-width: 601px) {
   .concept {
     padding-bottom: 30px;
-    .concept-top {
-      padding-top: 20px;
-      display: flex;
-      font-family: 'Bad Script', cursive;
-      font-size: 2rem;
-      .line {
-        border: 1px solid #4f7594;
-        background-color:#4f7594;
-        width: 30px;
-        height: 1px;
-        margin: 40px 22px 22px 0;
-      }
-    }
     &__container {
       width: 80vw;
-      height: 600px;
-      margin: 0 auto;
-      
-      
+      margin: 0px auto;
+      .concept-top {
+        padding-top: 20px;
+        display: flex;
+        font-family: 'Bad Script', cursive;
+        font-size: 2rem;
+        .line {
+          border: 1px solid #4f7594;
+          background-color:#4f7594;
+          width: 30px;
+          height: 1px;
+          margin: 40px 22px 22px 0;
+        }
+      }
+    }
+    .concept__box {
+      margin: 40px 110px;
+      &__line {
+        margin:2em 0;
+        position: relative;
+        padding: 2rem 1em;
+        border: solid 2px #ffcb8a;
+        border-radius: 3px 0 3px 0;
+      }
+      &__line:before,&__line:after {
+        content: '';
+        position: absolute;
+        width:10px;
+        height: 10px;
+        border: solid 2px #ffcb8a;
+        border-radius: 50%;
+      }
+      &__line:after {
+        top:-12px;
+        left:-12px;
+      }
+      &__line:before {
+        bottom:-12px;
+        right:-12px;
+      }
+      .concept-text {
+        font-size: 1.0rem;
+        margin: auto;
+      }
     }
   }
 }
@@ -95,10 +123,35 @@ padding: 0px;
         margin: 40px 22px 22px 0;
       }
     }
-    &__container {
-      width: 80vw;
-      margin: 0 auto;
-      
+    .concept__box {
+      margin: 40px 40px;
+      &__line {
+        margin:2em 0;
+        position: relative;
+        padding: 2rem 1em;
+        border: solid 2px #ffcb8a;
+        border-radius: 3px 0 3px 0;
+      }
+      &__line:before,&__line:after {
+        content: '';
+        position: absolute;
+        width:10px;
+        height: 10px;
+        border: solid 2px #ffcb8a;
+        border-radius: 50%;
+      }
+      &__line:after {
+        top:-12px;
+        left:-12px;
+      }
+      &__line:before {
+        bottom:-12px;
+        right:-12px;
+      }
+      .concept-text {
+        font-size: 1.0rem;
+        margin: auto;
+      }
     }
   }
 }
@@ -123,8 +176,147 @@ padding: 0px;
     }
     .menu-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-      .menu-name {
+      grid-template-columns: 50% 50%;
+      grid-template-rows: 260px 300px 350px;
+      .menu-name__cut {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        &__top {
+          display: flex;
+          font-weight: 700;
+          letter-spacing: 0.2em;
+          font-size: 1.5rem;
+          margin-bottom: 35px;
+          font-family: 'Chilanka', cursive;
+          margin-top: 70px;
+        }
+        &__last {
+          font-size: 0.8rem;
+          margin-top: 5px;
+        }
+        dl {
+          margin-top: 23px;
+          width: 90%;
+          min-width: 350px;
+          padding-bottom: 5px;
+          height: 30px;
+          border-bottom: 1px solid #ccc;
+          font-family: 'Chilanka', cursive;
+          dt {
+            float: left;
+            line-height: 1.4em;
+          }
+          dd {
+            float: right;
+            margin-right: 30px;
+          }
+        }
+      }
+      .menu-name__color {
+        grid-column: 2 / 3;
+        grid-row: 1 / 3;
+        &__top {
+          display: flex;
+          font-weight: 700;
+          letter-spacing: 0.2em;
+          font-size: 1.5rem;
+          margin-bottom: 35px;
+          font-family: 'Chilanka', cursive;
+          margin-top: 70px;
+        }
+        &__last {
+          font-size: 0.8rem;
+          margin-top: 5px;
+        }
+        dl {
+          margin-top: 23px;
+          width: 90%;
+          min-width: 350px;
+          padding-bottom: 5px;
+          height: 30px;
+          border-bottom: 1px solid #ccc;
+          font-family: 'Chilanka', cursive;
+          dt {
+            float: left;
+            line-height: 1.4em;
+          }
+          dd {
+            float: right;
+            margin-right: 30px;
+          }
+        }
+      }
+      .menu-name__perm {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        &__top {
+          display: flex;
+          font-weight: 700;
+          letter-spacing: 0.2em;
+          font-size: 1.5rem;
+          margin-bottom: 35px;
+          font-family: 'Chilanka', cursive;
+          margin-top: 70px;
+        }
+        &__last {
+          font-size: 0.8rem;
+          margin-top: 5px;
+        }
+        dl {
+          margin-top: 23px;
+          width: 90%;
+          min-width: 350px;
+          padding-bottom: 5px;
+          height: 30px;
+          border-bottom: 1px solid #ccc;
+          font-family: 'Chilanka', cursive;
+          dt {
+            float: left;
+            line-height: 1.4em;
+          }
+          dd {
+            float: right;
+            margin-right: 30px;
+          }
+        }
+      }
+      .menu-name__straighteing {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+        &__top {
+          display: flex;
+          font-weight: 700;
+          letter-spacing: 0.2em;
+          font-size: 1.5rem;
+          margin-bottom: 35px;
+          font-family: 'Chilanka', cursive;
+          margin-top: 70px;
+        }
+        &__last {
+          font-size: 0.8rem;
+          margin-top: 5px;
+        }
+        dl {
+          margin-top: 23px;
+          width: 90%;
+          min-width: 350px;
+          padding-bottom: 5px;
+          height: 30px;
+          border-bottom: 1px solid #ccc;
+          font-family: 'Chilanka', cursive;
+          dt {
+            float: left;
+            line-height: 1.4em;
+          }
+          dd {
+            float: right;
+            margin-right: 30px;
+          }
+        }
+      }
+      .menu-name__other {
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
         &__top {
           display: flex;
           font-weight: 700;
@@ -254,6 +446,7 @@ padding: 0px;
       width: 80vw;
       margin: 0 auto;
       .access-top {
+        padding-top: 20px;
         display: flex;
         font-family: 'Bad Script', cursive;
         font-size: 2rem;
