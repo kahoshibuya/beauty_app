@@ -30,8 +30,9 @@ width: 100%;
       border-radius: 25px;
       text-decoration: none;
       color: #FFF;
-      background-image: linear-gradient(45deg,  #a52a2a 0%, #ff8b5f 100%);
+      background-color: #a52a2a;
       transition: .4s;
+      font-family: 'Kosugi Maru', sans-serif;
     }
     .right-btn :hover {
       background-image: linear-gradient(45deg, #FFC107 0%, #f76a35 100%);
@@ -585,15 +586,37 @@ width: 100%;
       margin: 0 auto;
       
       .staff1 {
-        float: right;
+        float: left;
         display: flex;
         margin-top:20px;
+        width: 600px;
         .staff-image img {
           height: 200px;
           width: 170px;
-          float: right;
+          float: left;
         }
         &__box {
+          width: 70vw;
+          margin-left: 20px;
+          font-family: 'Chilanka', cursive;
+          float: left;
+          .name {
+            font-size: 1.4rem;
+            float: left;
+          }
+          .name-info{
+            font-size: 1.0rem;
+            line-height: 30px;
+            font-weight: 400;
+          }
+        }
+      }
+      .staff2 {
+        float: right;
+        display: flex;
+        margin-top:20px;
+        &__box {
+          float: right;
           width: 500px;
           margin-left: 20px;
           font-family: 'Chilanka', cursive;
@@ -605,6 +628,11 @@ width: 100%;
             line-height: 30px;
             font-weight: 400;
           }
+        }
+        .staff-image img {
+          height: 200px;
+          width: 170px;
+          float: right;
         }
       }
     }
