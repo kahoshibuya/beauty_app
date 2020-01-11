@@ -129,11 +129,11 @@ width: 100%;
     .concept__box {
       margin: 40px 40px;
       &__line {
-        margin:2em 0;
-        position: relative;
-        padding: 2rem 1em;
+        // margin:2em 0;
+        // position: relative;
+        // padding: 2rem 1em;
         border: solid 2px #ffcb8a;
-        border-radius: 3px 0 3px 0;
+        // border-radius: 3px 0 3px 0;
       }
       &__line:before,&__line:after {
         content: '';
