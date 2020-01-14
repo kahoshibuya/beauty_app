@@ -62,7 +62,7 @@ width: 100%;
       font-family: 'Baloo Bhai', cursive;
     }
     .right-box {
-      width: 150px;
+      width: 90px;
       display: table-cell;
       padding-right: 20px;
       .right-btn {
@@ -160,19 +160,22 @@ width: 100%;
 @media (max-width: 600px) {
   .concept {
     padding-bottom: 30px;
-    max-width: 400px;
-    // font-family: 'Kosugi Maru', sans-serif;
-    .concept-top {
-      padding-top: 20px;
-      display: flex;
-      font-family: 'Baloo Bhai', cursive;
-      font-size: 2rem;
-      .line {
-        border: 1px solid #a52a2a;
-        background-color: #a52a2a;
-        width: 30px;
-        height: 1px;
-        margin: 40px 22px 22px 0;
+    &__container {
+      padding-bottom: 30px;
+      max-width: 400px;
+      font-family: 'Kosugi Maru', sans-serif;
+      .concept-top {
+        padding-top: 20px;
+        display: flex;
+        font-family: 'Baloo Bhai', cursive;
+        font-size: 2rem;
+        .line {
+          border: 1px solid #a52a2a;
+          background-color: #a52a2a;
+          width: 30px;
+          height: 1px;
+          margin: 40px 22px 22px 0;
+        }
       }
     }
     .concept__box {
@@ -606,7 +609,26 @@ width: 100%;
             dt {
               float: left;
               line-height: 1.4em;
-              width: 150px;
+              width: 200px;
+            }
+            dd {
+              text-align: right;
+            }
+          }
+          .other_last {
+            margin-top: 23px;
+            width: 90%;
+            min-width: 250px;
+            max-width: 300px;
+            padding-bottom: 5px;
+            height: 60px;
+            border-bottom: 1px solid #ccc;
+            font-family: 'Chilanka', cursive;
+            
+            dt {
+              float: left;
+              line-height: 1.4em;
+              width: 170px;
             }
             dd {
               text-align: right;
