@@ -21,6 +21,13 @@ width: 100%;
     margin-left: 20px;
     font-family: 'Baloo Bhai', cursive;
   }
+  @media (max-width: 600px) {
+    color: #a52a2a;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    font-family: 'Baloo Bhai', cursive;
+  }
   .right-box {
     width: 150px;
     display: table-cell;
@@ -70,7 +77,7 @@ width: 100%;
       .concept-top {
         padding-top: 20px;
         display: flex;
-        font-family: 'Bad Script', cursive;
+        font-family: 'Baloo Bhai', cursive;
         font-size: 2rem;
         .line {
           border: 1px solid #a52a2a;;
@@ -124,7 +131,7 @@ width: 100%;
     .concept-top {
       padding-top: 20px;
       display: flex;
-      font-family: 'Bad Script', cursive;
+      font-family: 'Baloo Bhai', cursive;
       font-size: 2rem;
       .line {
         border: 1px solid #a52a2a;
@@ -180,7 +187,7 @@ width: 100%;
         padding-top: 20px;
         display: flex;
         font-size: 2rem;
-        font-family: 'Bad Script', cursive;
+        font-family: 'Baloo Bhai', cursive;
         .line {
           border: 1px solid #a52a2a;
           background-color: #a52a2a;
@@ -386,7 +393,7 @@ width: 100%;
         padding-top: 20px;
         display: flex;
         font-size: 2rem;
-        font-family: 'Bad Script', cursive;
+        font-family: 'Baloo Bhai', cursive;
         .line {
           border: 1px solid #a52a2a;
           background-color: #a52a2a;
@@ -399,170 +406,175 @@ width: 100%;
         
         .menu-name__cut {
           margin-top: 30px;
-          &__top {
+          .menu-name__top {
             display: flex;
             font-weight: 700;
             letter-spacing: 0.2em;
             font-size: 1.5rem;
             margin-bottom: 35px;
-            font-family: 'Chilanka', cursive;
-            margin-top: 70px;
-          }
-          &__last {
-            font-size: 0.8rem;
-            margin-top: 5px;
+            font-family: 'Baloo Bhai', cursive;
+            .menu-name__last {
+              font-size: 0.8rem;
+              margin-top: 5px;
+            }
           }
           dl {
             margin-top: 23px;
             width: 90%;
             min-width: 350px;
+            max-width: 430px;
             padding-bottom: 5px;
             height: 30px;
             border-bottom: 1px solid #ccc;
             font-family: 'Chilanka', cursive;
+            
             dt {
               float: left;
               line-height: 1.4em;
+              width: 300px;
             }
             dd {
-              float: right;
-              margin-right: 30px;
+              text-align: right;
             }
           }
         }
         .menu-name__color {
           margin-top: 30px;
           
-          &__top {
+          .menu-name__top {
             display: flex;
             font-weight: 700;
             letter-spacing: 0.2em;
             font-size: 1.5rem;
             margin-bottom: 35px;
-            font-family: 'Chilanka', cursive;
-            margin-top: 70px;
-          }
-          &__last {
-            font-size: 0.8rem;
-            margin-top: 5px;
+            font-family: 'Baloo Bhai', cursive;
+            .menu-name__last {
+              font-size: 0.8rem;
+              margin-top: 5px;
+            }
           }
           dl {
             margin-top: 23px;
             width: 90%;
             min-width: 350px;
+            max-width: 430px;
             padding-bottom: 5px;
             height: 30px;
             border-bottom: 1px solid #ccc;
             font-family: 'Chilanka', cursive;
+            
             dt {
               float: left;
               line-height: 1.4em;
+              width: 300px;
             }
             dd {
-              float: right;
-              margin-right: 30px;
+              text-align: right;
             }
           }
         }
         .menu-name__perm {
           margin-top: 30px;
           
-          &__top {
+          .menu-name__top {
             display: flex;
             font-weight: 700;
             letter-spacing: 0.2em;
             font-size: 1.5rem;
             margin-bottom: 35px;
-            font-family: 'Chilanka', cursive;
-            margin-top: 70px;
-          }
-          &__last {
-            font-size: 0.8rem;
-            margin-top: 5px;
+            font-family: 'Baloo Bhai', cursive;
+            .menu-name__last {
+              font-size: 0.8rem;
+              margin-top: 5px;
+            }
           }
           dl {
             margin-top: 23px;
             width: 90%;
             min-width: 350px;
+            max-width: 430px;
             padding-bottom: 5px;
             height: 30px;
             border-bottom: 1px solid #ccc;
             font-family: 'Chilanka', cursive;
+            
             dt {
               float: left;
               line-height: 1.4em;
+              width: 300px;
             }
             dd {
-              float: right;
-              margin-right: 30px;
+              text-align: right;
             }
           }
         }
         .menu-name__straighteing {
           margin-top: 30px;
           
-          &__top {
+          .menu-name__top {
             display: flex;
             font-weight: 700;
             letter-spacing: 0.2em;
             font-size: 1.5rem;
             margin-bottom: 35px;
-            font-family: 'Chilanka', cursive;
-            margin-top: 70px;
-          }
-          &__last {
-            font-size: 0.8rem;
-            margin-top: 5px;
+            font-family: 'Baloo Bhai', cursive;
+            .menu-name__last {
+              font-size: 0.8rem;
+              margin-top: 5px;
+            }
           }
           dl {
             margin-top: 23px;
             width: 90%;
             min-width: 350px;
+            max-width: 430px;
             padding-bottom: 5px;
             height: 30px;
             border-bottom: 1px solid #ccc;
             font-family: 'Chilanka', cursive;
+            
             dt {
               float: left;
               line-height: 1.4em;
+              width: 300px;
             }
             dd {
-              float: right;
-              margin-right: 30px;
+              text-align: right;
             }
           }
         }
         .menu-name__other {
           margin-top: 30px;
           
-          &__top {
+          .menu-name__top {
             display: flex;
             font-weight: 700;
             letter-spacing: 0.2em;
             font-size: 1.5rem;
             margin-bottom: 35px;
-            font-family: 'Chilanka', cursive;
-            margin-top: 70px;
-          }
-          &__last {
-            font-size: 0.8rem;
-            margin-top: 5px;
+            font-family: 'Baloo Bhai', cursive;
+            .menu-name__last {
+              font-size: 0.8rem;
+              margin-top: 5px;
+            }
           }
           dl {
             margin-top: 23px;
             width: 90%;
             min-width: 350px;
+            max-width: 430px;
             padding-bottom: 5px;
             height: 30px;
             border-bottom: 1px solid #ccc;
             font-family: 'Chilanka', cursive;
+            
             dt {
               float: left;
               line-height: 1.4em;
+              width: 300px;
             }
             dd {
-              float: right;
-              margin-right: 30px;
+              text-align: right;
             }
           }
         }
@@ -576,7 +588,7 @@ width: 100%;
     .staff-top {
       padding-top: 20px;
       display: flex;
-      font-family: 'Bad Script', cursive;
+      font-family: 'Baloo Bhai', cursive;
       font-size: 2rem;
       .line {
         border: 1px solid #a52a2a;
@@ -649,7 +661,7 @@ width: 100%;
     .staff-top {
       padding-top: 20px;
       display: flex;
-      font-family: 'Bad Script', cursive;
+      font-family: 'Baloo Bhai', cursive;
       font-size: 2rem;
       .line {
         border: 1px solid #a52a2a;
@@ -663,6 +675,25 @@ width: 100%;
       width: 80vw;
       margin: 0 auto;
       .staff1 {
+        margin-top:20px;
+        .staff-image img {
+          height: 200px;
+          width: 170px;
+        }
+        &__box {
+          font-size: 1.0rem;
+          font-family: 'Chilanka', cursive;
+          .name {
+            font-size: 1.4rem;
+          }
+          .name-info{
+            line-height: 30px;
+            margin-top: 20px; 
+            font-weight: 400;
+          }
+        }
+      }
+      .staff2 {
         margin-top:20px;
         .staff-image img {
           height: 200px;
@@ -696,7 +727,7 @@ width: 100%;
       .access-top {
         padding-top: 20px;
         display: flex;
-        font-family: 'Bad Script', cursive;
+        font-family: 'Baloo Bhai', cursive;
         font-size: 2rem;
         .line {
           border: 1px solid #a52a2a;
@@ -733,7 +764,7 @@ width: 100%;
       margin: 0 auto;
       .access-top {
         display: flex;
-        font-family: 'Bad Script', cursive;
+        font-family: 'Baloo Bhai', cursive;
         font-size: 2rem;
         .line {
           border: 1px solid #a52a2a;
