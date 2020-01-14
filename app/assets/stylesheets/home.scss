@@ -4,45 +4,77 @@ margin: 0px;
 padding: 0px;
 width: 100%;
 }
-.top-nav {
-  padding-top: 10px;
-  background: rgba(255,255,255,.8);
-  width: 100%;
-  height: 63px;
-  position:fixed;
-  top:0;
-  width:100%;
-  z-index:24;
-  display: table;
-  .brand-logo {
-    color: #a52a2a;
-    font-size: 40px;
-    font-weight: bold;
-    margin-left: 20px;
-    font-family: 'Baloo Bhai', cursive;
-  }
-  @media (max-width: 600px) {
-    color: #a52a2a;
-    font-size: 20px;
-    font-weight: bold;
-    margin-left: 10px;
-    font-family: 'Baloo Bhai', cursive;
-  }
-  .right-box {
-    width: 150px;
-    display: table-cell;
-    padding-right: 20px;
-    .right-btn {
-      padding: 15px 20px;
-      border-radius: 25px;
-      text-decoration: none;
-      color: #FFF;
-      background-color: #a52a2a;
-      transition: .4s;
-      font-family: 'Kosugi Maru', sans-serif;
+@media (min-width: 601px) {
+  .top-nav {
+    padding-top: 10px;
+    background: rgba(255,255,255,.8);
+    width: 100%;
+    height: 63px;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:24;
+    display: table;
+    .brand-logo {
+      color: #a52a2a;
+      font-size: 40px;
+      font-weight: bold;
+      margin-left: 20px;
+      font-family: 'Baloo Bhai', cursive;
     }
-    .right-btn :hover {
-      background-image: linear-gradient(45deg, #FFC107 0%, #f76a35 100%);
+    .right-box {
+      width: 150px;
+      display: table-cell;
+      padding-right: 20px;
+      .right-btn {
+        padding: 15px 20px;
+        border-radius: 25px;
+        text-decoration: none;
+        color: #FFF;
+        background-color: #a52a2a;
+        transition: .4s;
+        font-family: 'Kosugi Maru', sans-serif;
+      }
+      .right-btn :hover {
+        background-image: linear-gradient(45deg, #FFC107 0%, #f76a35 100%);
+      }
+    }
+  }
+}
+@media (max-width: 600px) {
+  .top-nav {
+    padding-top: 10px;
+    background: rgba(255,255,255,.8);
+    width: 100%;
+    height: 63px;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:24;
+    display: table;
+    .brand-logo {
+      color: #a52a2a;
+      font-size: 30px;
+      font-weight: bold;
+      margin-left: 20px;
+      font-family: 'Baloo Bhai', cursive;
+    }
+    .right-box {
+      width: 150px;
+      display: table-cell;
+      padding-right: 20px;
+      .right-btn {
+        padding: 15px 20px;
+        border-radius: 25px;
+        text-decoration: none;
+        color: #FFF;
+        background-color: #a52a2a;
+        transition: .4s;
+        font-family: 'Kosugi Maru', sans-serif;
+      }
+      .right-btn :hover {
+        background-image: linear-gradient(45deg, #FFC107 0%, #f76a35 100%);
+      }
     }
   }
 }
@@ -431,7 +463,7 @@ width: 100%;
             dt {
               float: left;
               line-height: 1.4em;
-              width: 300px;
+              width: 200px;
             }
             dd {
               text-align: right;
@@ -466,7 +498,7 @@ width: 100%;
             dt {
               float: left;
               line-height: 1.4em;
-              width: 300px;
+              width: 200px;
             }
             dd {
               text-align: right;
@@ -501,7 +533,7 @@ width: 100%;
             dt {
               float: left;
               line-height: 1.4em;
-              width: 300px;
+              width: 200px;
             }
             dd {
               text-align: right;
@@ -536,7 +568,7 @@ width: 100%;
             dt {
               float: left;
               line-height: 1.4em;
-              width: 300px;
+              width: 200px;
             }
             dd {
               text-align: right;
@@ -571,7 +603,7 @@ width: 100%;
             dt {
               float: left;
               line-height: 1.4em;
-              width: 300px;
+              width: 200px;
             }
             dd {
               text-align: right;
