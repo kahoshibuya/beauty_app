@@ -10,22 +10,21 @@ width: 100%;
     background: rgba(255,255,255,.8);
     width: 100%;
     height: 63px;
-    position:fixed;
     top:0;
-    width:100%;
+    width:76%;
+    margin: 0 auto;
     z-index:24;
     display: table;
     .brand-logo {
       color: #a52a2a;
-      font-size: 40px;
+      font-size: 60px;
       font-weight: bold;
       margin-left: 20px;
       font-family: 'Baloo Bhai', cursive;
     }
     .right-box {
-      width: 150px;
+      width: 120px;
       display: table-cell;
-      padding-right: 50px;
       .right-btn {
         margin-left: 20px;
         padding: 15px 20px;
@@ -82,12 +81,12 @@ width: 100%;
 }
 @media (min-width: 601px) {
   header {
-    height: 500px;
+    height: 650px;
     width: 70vw;
     margin: 0 auto;
     .slick-track {
       width: 100vw;
-      height: 500px;
+      height: 650px;
     }
   }
 }
@@ -149,7 +148,8 @@ width: 100%;
         right:-12px;
       }
       .concept-text {
-        font-size: 1.0rem;
+        font-size: 1.2rem;
+        font-weight:700;
         margin: auto;
         line-height: 1.6;
       }
@@ -261,7 +261,6 @@ width: 100%;
             padding-bottom: 5px;
             height: 30px;
             border-bottom: 1px solid #ccc;
-            font-family: 'Chilanka', cursive;
             
             dt {
               float: left;
@@ -296,7 +295,6 @@ width: 100%;
             padding-bottom: 5px;
             height: 30px;
             border-bottom: 1px solid #ccc;
-            font-family: 'Chilanka', cursive;
             
             dt {
               float: left;
@@ -332,7 +330,6 @@ width: 100%;
             padding-bottom: 5px;
             height: 30px;
             border-bottom: 1px solid #ccc;
-            font-family: 'Chilanka', cursive;
             
             dt {
               float: left;
@@ -367,7 +364,6 @@ width: 100%;
             padding-bottom: 5px;
             height: 30px;
             border-bottom: 1px solid #ccc;
-            font-family: 'Chilanka', cursive;
             
             dt {
               float: left;
@@ -403,7 +399,6 @@ width: 100%;
             padding-bottom: 5px;
             height: 30px;
             border-bottom: 1px solid #ccc;
-            font-family: 'Chilanka', cursive;
             
             dt {
               float: left;
@@ -464,7 +459,6 @@ width: 100%;
             padding-bottom: 5px;
             height: 30px;
             border-bottom: 1px solid #ccc;
-            font-family: 'Chilanka', cursive;
             
             dt {
               float: left;
@@ -499,7 +493,6 @@ width: 100%;
             padding-bottom: 5px;
             height: 30px;
             border-bottom: 1px solid #ccc;
-            font-family: 'Chilanka', cursive;
             
             dt {
               float: left;
@@ -534,7 +527,6 @@ width: 100%;
             padding-bottom: 5px;
             height: 30px;
             border-bottom: 1px solid #ccc;
-            font-family: 'Chilanka', cursive;
             
             dt {
               float: left;
@@ -569,7 +561,6 @@ width: 100%;
             padding-bottom: 5px;
             height: 30px;
             border-bottom: 1px solid #ccc;
-            font-family: 'Chilanka', cursive;
             
             dt {
               float: left;
@@ -604,7 +595,6 @@ width: 100%;
             padding-bottom: 5px;
             height: 30px;
             border-bottom: 1px solid #ccc;
-            font-family: 'Chilanka', cursive;
             
             dt {
               float: left;
@@ -623,7 +613,6 @@ width: 100%;
             padding-bottom: 5px;
             height: 60px;
             border-bottom: 1px solid #ccc;
-            font-family: 'Chilanka', cursive;
             
             dt {
               float: left;
@@ -673,7 +662,7 @@ width: 100%;
         &__box {
           width: 70vw;
           margin-left: 20px;
-          font-family: 'Chilanka', cursive;
+          font-family: 'Kosugi Maru', sans-serif;
           float: left;
           .name {
             font-size: 1.4rem;
@@ -693,7 +682,7 @@ width: 100%;
           float: right;
           width: 350px;
           margin-left: 20px;
-          font-family: 'Chilanka', cursive;
+          font-family: 'Kosugi Maru', sans-serif;
           .name {
             font-size: 1.4rem;
           }
@@ -739,7 +728,7 @@ width: 100%;
         }
         &__box {
           font-size: 1.0rem;
-          font-family: 'Chilanka', cursive;
+          font-family: 'Kosugi Maru', sans-serif;
           .name {
             font-size: 1.4rem;
           }
@@ -758,7 +747,7 @@ width: 100%;
         }
         &__box {
           font-size: 1.0rem;
-          font-family: 'Chilanka', cursive;
+          font-family: 'Kosugi Maru', sans-serif;
           .name {
             font-size: 1.4rem;
           }
@@ -796,7 +785,8 @@ width: 100%;
       }
       .access__info {
         display: flex;
-        font-family: 'Chilanka', cursive;
+        font-family: 'Kosugi Maru', sans-serif;
+        line-height: 1.5rem;
         dl {
           margin-top: 10px;
         }
