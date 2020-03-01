@@ -644,7 +644,7 @@ width: 100%;
     }
     &__container {
       width: 80vw;
-      height: 580px;
+      height: 700px;
       margin: 0 auto;
       
       .staff1 {
@@ -653,8 +653,8 @@ width: 100%;
         margin-top:20px;
         width: 600px;
         .staff-image img {
-          height: 230px;
-          width: 150px;
+          height: 250px;
+          width: 160px;
           float: left;
         }
         &__box {
@@ -674,16 +674,26 @@ width: 100%;
             line-height: 30px;
             font-weight: 400;
             margin-top: 10px;
+            dl {
+              display: flex;
+              width: 620px;
+              dt {
+                width: 150px;
+              }
+              dd {
+                width: 470px;
+              }
+            }
           }
         }
       }
       .staff2 {
         float: right;
-        margin-top:20px;
+        margin-top:40px;
         margin-bottom: 30px;
         &__box {
           float: right;
-          width: 350px;
+          width: 650px;
           margin-left: 20px;
           font-family: 'Kosugi Maru', sans-serif;
           .name {
@@ -698,11 +708,21 @@ width: 100%;
             line-height: 30px;
             font-weight: 400;
             margin-top: 10px;
+            dl {
+              display: flex;
+              width: 620px;
+              dt {
+                width: 150px;
+              }
+              dd {
+                width: 470px;
+              }
+            }
           }
         }
         .staff-image img {
-          height: 230px;
-          width: 150px;
+          height: 250px;
+          width: 160px;
           float: right;
         }
       }
@@ -731,8 +751,8 @@ width: 100%;
       .staff1 {
         margin-top:20px;
         .staff-image img {
-          height: 200px;
-          width: 170px;
+          height: 250px;
+          width: 160px;
         }
         &__box {
           font-size: 1.0rem;
@@ -753,8 +773,8 @@ width: 100%;
       .staff2 {
         margin-top:20px;
         .staff-image img {
-          height: 200px;
-          width: 170px;
+          height: 250px;
+          width: 160px;
         }
         &__box {
           font-size: 1.0rem;
